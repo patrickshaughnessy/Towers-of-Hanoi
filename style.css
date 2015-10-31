@@ -1,0 +1,66 @@
+
+#gameSpace {
+  height: 300px;
+  width: 500px;
+  /*border: 1px solid black;*/
+}
+
+input {
+  width: 200px;
+}
+
+
+/*div {
+  border: 1px solid green;
+}*/
+
+.block.bottom {
+  height: 0px;
+  margin-left: -21px;
+  visibility: hidden;
+}
+
+.section {
+  height: 100%;
+  width: 32%;
+  border-bottom: 2px solid gold;
+  display: inline-block;
+  position: relative;
+
+}
+
+.container {
+  width: 50%;
+  bottom: 0px;
+  position: absolute;
+  left: 34px;
+
+
+}
+
+.block {
+  height: 20px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.highlighted {
+  border: 2px solid red;
+}
+
+.victoryFace {
+  background-image: url(http://cadenichols.com/images/headshot.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.blankcover {
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  font-size: 1px;
+}

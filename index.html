@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Towers Of Hanoi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Towers Of Hanoi!</h1>
+
+  <input id="startNumber" type="number" placeholder="How many blocks?" min="3", max="10">
+  <button id="startButton">Start!</button>
+  <button id="newGameButton">New Game</button>
+
+  <div id="gameSpace">
+
+    <div class="section">
+      <div class="container" id="section1">
+          <!-- blocks dynamically added here -->
+      </div>
+    </div>
+    <div class="section">
+      <div class="container" id="section2">
+        <!-- <div class="block bottom">bottom</div> -->
+      </div>
+    </div>
+    <div class="section">
+      <div class="container" id="section3">
+        <!-- <div class="block bottom">bottom</div> -->
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
